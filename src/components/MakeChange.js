@@ -56,6 +56,7 @@ export default function MakeChange() {
         />
         <button type="submit">Calculate</button>
       </form>
+      <p>The default coin values are 0.25, 0.10, 0.05, 0.01</p>
       <h1>Set New coin Values</h1>
       <form onSubmit={changeCoinValues}>
         <label>Set coin value 1: </label>
